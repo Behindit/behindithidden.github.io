@@ -1,19 +1,38 @@
-h1 span{
-display: block;
-font-family:monospace;
-white-space:nowrap;
-border-right:4px solid;
-width:32ch;
+* {
+    font-family: Lobster;
+    background-color: rgb(171, 167, 167);
+    font-weight: 100;
+}
 
-animation: typing 2s steps(32), blink .5s infinite step-end alternate;
-overflow:hidden;
+h1 span {
+    font-weight: 1000;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 32ch;
+    animation: typing 2s steps(32), blink .5s infinite step-end alternate;
+    overflow: hidden;
 }
 
 @keyframes typing {
-
-from {width: 0}
+    from {
+        width: 0
+    }
 }
 
 @keyframes blink {
- 50% { border-color: transparent}
+    50% {
+        border-color: transparent
+    }
+}
+
+.Sobre-mi_Titulo {
+    font-size: 2em;
+}
+.Sobre-mi_Texto{
+    font-size: 1.3em;
+}
+.Redes-Sociales_Titulo{
+    font-size: 1.5em;
 }
